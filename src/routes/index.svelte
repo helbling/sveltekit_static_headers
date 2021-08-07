@@ -14,10 +14,10 @@
 <section>
 	<h1>
 		<div>
-			<img src="image.png" alt="static/image.png" />
+			<img src="image.png" alt="static" />
 		</div>
 		<div>
-			<img src="{assetImg}" alt="src/lib/assets/image.png" />
+			<img src="{assetImg}" alt="assets" />
 		</div>
 	</h1>
 
