@@ -18,5 +18,8 @@ export const handle = async ({ request, resolve }) => {
 		response.headers['set-cookie'] = `userid=${request.locals.userid}; Path=/; HttpOnly`;
 	}
 
+	response.headers['x-custom-header'] = 'potato';
+	console.log('handle', request.path);
+
 	return response;
 };
